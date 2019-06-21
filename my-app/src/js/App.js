@@ -1,19 +1,16 @@
 import React from 'react';
 import '../css/App.css';
+import Cards from './Cards';
 
 function App() {
+
     return (
-
-        fetch('https://api.magicthegathering.io/v1/cards')
-            .then(Response => console.log(Response)),
-
-        < div className="App" >
-            <header className="App-header">
-                <p>
-                    Hello World!
-                </p>
-            </header>
-        </div >
+        fetch('http://jsonplaceholder.typicode.com/users')
+            .then(res => res.json())
+            .then((data) => {
+                this.setState({ contacts: data })
+            })
+            .catch(console.log)
     );
 }
 
