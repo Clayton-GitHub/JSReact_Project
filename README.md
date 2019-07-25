@@ -13,4 +13,4 @@
 - Run NPM Install
 - Start project by doing NPM Start
 
-## Click the different button and see what MTG Has to offer
+## Click the different buttons and see what MTG Has to offer
