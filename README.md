@@ -10,7 +10,7 @@
 ## How to run project?
 
 - Clone Project to local machine
-- Run NPM Install
-- Start project by doing NPM Start
+- Run `npm install`
+- Start project by doing `npm start`
 
 ## Click the different buttons and see what MTG Has to offer
